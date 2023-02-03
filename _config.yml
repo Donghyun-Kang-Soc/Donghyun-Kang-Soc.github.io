@@ -82,14 +82,16 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
+  email: true
   twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
+  twitter: true
+  facebook: False
+  linkedin: False
+  vk: False
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+#url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
