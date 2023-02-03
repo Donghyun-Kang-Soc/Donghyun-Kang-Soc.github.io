@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: My Website
+title: Donghyun Kang
 
 # Your name to show in the footer
 author: Donghyun Kang
@@ -71,8 +71,8 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: YAvBYYoAAAAJ&hl=en&oi=ao
+   ORCID: 0000-0001-6241-8910
+   google-scholar: YAvBYYoAAAAJ&hl=en&oi=ao
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
@@ -91,6 +91,7 @@ share-links-active:
   facebook: false
   linkedin: false
   vk: false
+  google-scholar: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -109,7 +110,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
