@@ -71,8 +71,8 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-   ORCID: 0000-0001-6241-8910
-   google-scholar: YAvBYYoAAAAJ&hl=en&oi=ao
+#  ORCID: 0000-0001-6241-8910
+   google-scholar: citations?user=YAvBYYoAAAAJ&hl=en&oi=ao
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
@@ -91,7 +91,6 @@ share-links-active:
   facebook: false
   linkedin: false
   vk: false
-  google-scholar: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
