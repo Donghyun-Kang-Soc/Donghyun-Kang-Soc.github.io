@@ -2,7 +2,9 @@
 layout: page
 title: Donghyun Kang
 ---
-![Donghyun Kang](/assets/img/photo.png)
+<div style="text-align: center;">
+  ![Donghyun Kang](/assets/img/photo.png)
+</div>
 
 Hello! I am Donghyun Kang, a PhD candidate in the Sociology Department at the University of Chicago. I am a member of [Knowledge Lab](https://www.knowledgelab.org/), advised by [James Evans](https://sociology.uchicago.edu/directory/James-A-Evans). Before Chicago, I completed a B.A. in Business Administration and M.A. in Sociology at Seoul National University.
 
