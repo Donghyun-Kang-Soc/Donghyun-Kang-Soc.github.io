@@ -3,16 +3,16 @@
 
 ## Published 
 
-**Title**
+### Title
 
 ## R & R
 
-**Title**
+### Title
 
 ## Under Review
 
-**Title**
+### Title
 
 ## Work in Progress 
 
-**Title**
+### title
