@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Donghyun Kang
 ---
 ![Donghyun Kang](/assets/img/photo.png)
 
