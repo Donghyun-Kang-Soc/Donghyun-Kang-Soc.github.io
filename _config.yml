@@ -21,8 +21,8 @@ author: Donghyun Kang
 
 navbar-links:
   About: "aboutme"
-  Research: "research"
   CV: "cv"
+  Research: "research"
   Others: "others"
 ################
 # --- Logo --- #
