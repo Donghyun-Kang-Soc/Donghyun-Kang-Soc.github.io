@@ -7,4 +7,4 @@ Hello and welcome! I am Donghyun Kang, a PhD candidate in the Sociology Departme
 
 My research aims to advance our understanding of the emergence, diffusion, and evolution of ideas and practices in science and technology and across civic domains. I am particularly eager to bridge computational large-scale analysis with theoretical insights from the sociology of knowledge, science, and organization.
 
-For more information, please see my [CV](https://github.com/nerdizzyz/nerdizzyz.github.io/blob/master/Donghyun_Kang_CV_Feb_2024.pdf). For collaboration opportunities or other inquiries, please contact me at [kangd@uchicago.edu].
+For more information, please see my [CV](https://github.com/nerdizzyz/nerdizzyz.github.io/raw/master/Donghyun_Kang_CV_Feb_2024.pdf). For collaboration opportunities or other inquiries, please contact me at [kangd@uchicago.edu].
