@@ -2,11 +2,11 @@
 layout: page
 title: Teaching
 ---
-Workshop Coordinator, University of Chicago
-•	Computation Skills Workshop (Autumn 2021)
+- Workshop Coordinator, University of Chicago
+  - Computation Skills Workshop (Autumn 2021)
 
-Teaching Assistant, University of Chicago 
-•	Computing for Social Sciences (Autumn 2020)
+- Teaching Assistant, University of Chicago 
+  - Computing for Social Sciences (Autumn 2020)
 
-Graduate Teaching Intern, University of Chicago 
-•	Social Science Inquiry I, II, III (Autumn 2019, Winter 2020, Spring 2020)
+- Graduate Teaching Intern, University of Chicago 
+  - Social Science Inquiry I, II, III (Autumn 2019, Winter 2020, Spring 2020)
