@@ -1,6 +1,6 @@
 ---
-layout: minimal
-title: 
+layout: page
+title: "&nbsp;"
 ---
 # CV
 
