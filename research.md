@@ -19,7 +19,7 @@ title: Research
 ---
 
 ### Papers with code or without code? Impact of GitHub repository usability on the diffusion of machine learning research
-**Kang, Donghyun**, TaeYoung Kang, and Junkyu Jang. *Information Processing & Management* 60, no. 6 (2023): 103477. [Link](https://www.sciencedirect.com/science/article/abs/pii/S0306457323002145)
+**Kang, Donghyun**, TaeYoung Kang, and Junkyu Jang. *Information Processing & Management* 60, no. 6 (2023): 103477. [https://doi.org/10.1016/j.ipm.2023.103477](https://www.sciencedirect.com/science/article/abs/pii/S0306457323002145)
 
 **Abstract**: *Open Science* initiatives prompt machine learning (ML) researchers and experts to share source codes - "scientific artifacts" - alongside research papers via public repositories such as GitHub. Here we analyze the extent to which 1) the availability of GitHub repositories influences paper citation and 2) the popularity trend of ML frameworks (e.g., PyTorch and TensorFlow) affects article citation rates. To accomplish this, we connect ML research publications indexed by Papers with Code (PwC) to Microsoft Academic Graph (MAG) and collect repository-level metadata using the GitHub API. Applying nearest-neighbor matching and econometric considerations, we estimate that papers enjoy approximately 20% advantages in monthly citation rates after the creation of the first GitHub repositories, accounting for paper-level fixed effects and ages. We also find that the temporal popularity trends for frameworks used in the first associated repositories could influence the monthly citation rate for papers. The results highlight the importance of technological artifacts and infrastructure latent to the diffusion of research.
 
