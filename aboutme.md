@@ -12,4 +12,4 @@ title: Donghyun Kang
 
 **First Name Pronunciation?** 
 <audio id="myAudio" src="./Donghyun_Say.mp3"></audio>
-<button onclick="document.getElementById('myAudio').play()">Play Pronunciation</button>
+<button onclick="document.getElementById('myAudio').play()">Play</button>
