@@ -12,6 +12,6 @@ title: Donghyun Kang
 
 ##### First Name Pronounciation?
 <audio controls>
-  <source src="/assets/audio/Donghyun_Say.mp3" type="audio/mp3">
+  <source src="./Donghyun_Say.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
