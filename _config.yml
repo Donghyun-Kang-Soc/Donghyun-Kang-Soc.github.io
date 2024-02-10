@@ -70,7 +70,7 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  ORCID: 0000-0001-6241-8910
+  ORCID: 0000-0001-6241-8910
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
