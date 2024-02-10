@@ -20,7 +20,7 @@ author: Donghyun Kang
 ###############################################
 
 navbar-links:
-  About: "aboutme"
+  About: "index"
   CV: "cv"
   Research: "research"
   Teaching: "teaching"
