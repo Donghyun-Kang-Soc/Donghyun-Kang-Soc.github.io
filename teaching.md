@@ -6,9 +6,11 @@ title: Teaching
   - Computation Skills Workshop (Autumn 2021)
 <br/>
 
+
 - **Teaching Assistant, University of Chicago**
   - Computing for Social Sciences (Autumn 2020)
 <br/>
+
 
 - **Graduate Teaching Intern, University of Chicago**
   - Social Science Inquiry I, II, III (Autumn 2019, Winter 2020, Spring 2020)
