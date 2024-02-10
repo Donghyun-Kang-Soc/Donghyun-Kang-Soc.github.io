@@ -16,7 +16,7 @@ title: Research
 
 **Abstract**: Market bubbles emerge when asset prices are driven unsustainably higher than asset values and shifts in belief burst them. We demonstrate the same phenomenon for biomedical knowledge when promising research receives inflated attention. We predict deflationary events by developing a diffusion index that captures whether research areas have been amplified within social and scientific bubbles or have diffused and become evaluated more broadly. We illustrate our diffusion approach contrasting the trajectories of cardiac stem cell research and cancer immunotherapy. We then trace the diffusion of unique 28,504 subfields in biomedicine comprising nearly 1.9M papers and more than 80M citations and demonstrate that limited diffusion of biomedical knowledge anticipates abrupt decreases in popularity. Our analysis emphasizes that restricted diffusion, implying a socio-epistemic bubble, leads to dramatic collapses in relevance and attention accorded to scientific knowledge.
 
-<img src="/assets/img/bubble_fig_2.png" alt="Bubble Fig" class="center-figure" style="width: 600px; height: auto;">
+<img src="/assets/img/bubble_fig_2.png" alt="Bubble Fig" class="center-figure">
 
 ---
 
@@ -34,4 +34,4 @@ Simon Y. Shachter, **Donghyun Kang**, and James Evans, *Under Review*, [SSRN](ht
 
 **Abstract** The U.S. has two systems of funding research at universities—a public one of Congressional appropriations and a private “submerged state” involving nonprofit funders subsidized by taxpayers. Here we examine the case of biomedical research and demonstrate that the “submerged state” can be costly and markedly less efficient at producing public goods. Using disability-adjusted life years (DALYs), we compare published outputs of biomedical research awards from nonprofit funders to grants from the National Institutes of Health (NIH). We apply a dataset of university funding and create novel linkages between grants and publications addressing diseases. Using this crosswalk, we demonstrate that nonprofit funders inefficiently benefit public health. Publications they fund are associated with fewer DALYs on average and are collectively less representative of the burden of disease than NIH-funded publications. This view implicates the inefficiency of the submerged state in biomedical research for public health, and is consistent with the critique that philanthropic activities represent publicly-sponsored expressions of private good.
 
-<img src="/assets/img/nonprofit.png" alt="Fig" class="center-figure" style="width: 600px; height: auto;">
+<img src="/assets/img/nonprofit.png" alt="Fig" class="center-figure">
