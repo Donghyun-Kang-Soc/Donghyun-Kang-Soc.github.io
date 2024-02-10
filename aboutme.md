@@ -8,7 +8,7 @@ title: Donghyun Kang
 
 <p>My research aims to advance our understanding of the emergence, diffusion, and evolution of ideas and practices in science and technology and across civic domains. I am particularly eager to bridge computational large-scale analysis with theoretical insights from the sociology of knowledge, science, and organization.</p>
 
-<p>For more information, please see my <a href="https://www.dropbox.com/scl/fi/oarnlwd4bplewwm7opgzm/Donghyun_Kang_CV_Feb_2024.pdf?rlkey=k1xni74gdkkq96lhr7onyauog&raw=1">CV</a>. For collaboration opportunities or other inquiries, please contact me at <a href="mailto:kangd@uchicago.edu">kangd@uchicago.edu</a>.</p>
+<p>For more information, please see my <a href="https://www.dropbox.com/scl/fi/o47zzhk9z9n8dz6uzq25c/Donghyun_Kang_Updated.pdf?rlkey=qodrne8a865glkrc492xf6trg&raw=1">CV</a>. For collaboration opportunities or other inquiries, please contact me at <a href="mailto:kangd@uchicago.edu">kangd@uchicago.edu</a>.</p>
 
 **First Name Pronunciation?** <audio id="myAudio" src="/assets/audio/Donghyun_Say.mp3"></audio> <button onclick="document.getElementById('myAudio').play()">Play</button>
 
