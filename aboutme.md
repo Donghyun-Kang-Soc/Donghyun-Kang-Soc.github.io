@@ -10,5 +10,5 @@ title: Donghyun Kang
 
 <p>For more information, please see my <a href="https://www.dropbox.com/scl/fi/oarnlwd4bplewwm7opgzm/Donghyun_Kang_CV_Feb_2024.pdf?rlkey=k1xni74gdkkq96lhr7onyauog&raw=1">CV</a>. For collaboration opportunities or other inquiries, please contact me at <a href="mailto:kangd@uchicago.edu">kangd@uchicago.edu</a>.</p>
 
-**First Name Pronunciation?** <audio id="myAudio" src="./Donghyun_Say.mp3"></audio> <button onclick="document.getElementById('myAudio').play()">Play</button>
+**First Name Pronunciation?** <audio id="myAudio" src="/assets/audio/Donghyun_Say.mp3"></audio> <button onclick="document.getElementById('myAudio').play()">Play</button>
 
