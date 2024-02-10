@@ -30,7 +30,7 @@ title: Research
 ---
 
 ### The Inefficiency of Private Support for Public Health:Comparing Nonprofit Biomedical Research Funding with the NIH
-Simon Y. Shachter, **Donghyun Kang**, and James Evans, *Under Review*, [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4483036)
+Shachter, Simon Y., **Donghyun Kang**, and James Evans, *Under Review*, [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4483036)
 
 **Abstract** The U.S. has two systems of funding research at universities—a public one of Congressional appropriations and a private “submerged state” involving nonprofit funders subsidized by taxpayers. Here we examine the case of biomedical research and demonstrate that the “submerged state” can be costly and markedly less efficient at producing public goods. Using disability-adjusted life years (DALYs), we compare published outputs of biomedical research awards from nonprofit funders to grants from the National Institutes of Health (NIH). We apply a dataset of university funding and create novel linkages between grants and publications addressing diseases. Using this crosswalk, we demonstrate that nonprofit funders inefficiently benefit public health. Publications they fund are associated with fewer DALYs on average and are collectively less representative of the burden of disease than NIH-funded publications. This view implicates the inefficiency of the submerged state in biomedical research for public health, and is consistent with the critique that philanthropic activities represent publicly-sponsored expressions of private good.
 
