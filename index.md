@@ -11,4 +11,7 @@ title: Donghyun Kang
 <p>For more information, please see my <a href="https://www.dropbox.com/scl/fi/oarnlwd4bplewwm7opgzm/Donghyun_Kang_CV_Feb_2024.pdf?rlkey=k1xni74gdkkq96lhr7onyauog&raw=1">CV</a>. For collaboration opportunities or other inquiries, please contact me at <a href="mailto:kangd@uchicago.edu">kangd@uchicago.edu</a>.</p>
 
 ##### First Name Pronounciation?
-- Similar to "Dong Hee-uhn". 
+<audio controls>
+  <source src="/assets/audio/Donghyun_Say.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
