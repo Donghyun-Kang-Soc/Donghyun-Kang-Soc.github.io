@@ -7,7 +7,7 @@ title: Research
 
 **Abstract**: The paradigm of scientific medicine is among the most influential epistemic shifts in the past century, wherein randomized clinical trials (RCTs) represent the impartial arbiter of legitimate medical knowledge, a view prevalent among quantitative social scientists. Nevertheless, not all RCTs agree, and systematic reviews are invoked to reconcile them. These assume the wisdom of crowds, which hinges on diverse perspectives and data, across the distribution of analyzed studies, but socio-epistemic bubbles across them may reduce realized diversity. We theorize how tacit knowledge, beliefs, and expectations accumulate within these ‘socio-epistemic bubbles,’ continuous regions of latent social density that may decrease diversity and increase certainty about healthcare studied by RCTs. To assess our theory, we analyze the Cochrane systematic review repository, covering 20,117 meta-analyses extracted from 1,962 reviews. We find that being closer within ‘social space’ inscribed by scientific collaboration markedly increases agreement regarding RCT effect direction and size. Our analysis suggests that this amplified certainty can drive premature convergence and path-dependency affecting medical practice and population health. Moreover, our findings imply hidden limitations associated with unmeasured social influence across the policy sciences through which conflicting claims perpetuate and highlight the necessity of accounting for them to improve collective certainty. 
 
-<img src="/assets/img/asr_fig.png" alt="Bubble Fig" style="width: 600px; height: auto; display: block; margin-left: auto; margin-right: auto;">
+<img src="/assets/img/asr_fig.png" alt="Bubble Fig" style="width: 700px; height: auto; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 
@@ -25,7 +25,7 @@ title: Research
 
 **Abstract**: *Open Science* initiatives prompt machine learning (ML) researchers and experts to share source codes - "scientific artifacts" - alongside research papers via public repositories such as GitHub. Here we analyze the extent to which 1) the availability of GitHub repositories influences paper citation and 2) the popularity trend of ML frameworks (e.g., PyTorch and TensorFlow) affects article citation rates. To accomplish this, we connect ML research publications indexed by Papers with Code (PwC) to Microsoft Academic Graph (MAG) and collect repository-level metadata using the GitHub API. Applying nearest-neighbor matching and econometric considerations, we estimate that papers enjoy approximately 20% advantages in monthly citation rates after the creation of the first GitHub repositories, accounting for paper-level fixed effects and ages. We also find that the temporal popularity trends for frameworks used in the first associated repositories could influence the monthly citation rate for papers. The results highlight the importance of technological artifacts and infrastructure latent to the diffusion of research.
 
-<img src="/assets/img/paperswith.png" alt="code fig" class="center-figure" style="width: 600px; height: auto; display: block; margin-left: auto; margin-right: auto;">
+<img src="/assets/img/paperswith.png" alt="code fig" class="center-figure" style="width: 700px; height: auto; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 
