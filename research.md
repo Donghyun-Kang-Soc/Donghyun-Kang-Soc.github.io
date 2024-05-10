@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 ### Socio-Epistemic Bubbles and Tacit Confidence in Randomized Clinical Trials
-**Kang, Donghyun** and James Evans, R & R at *American Sociological Review* [SocArXiv](https://osf.io/preprints/socarxiv/2adyz)
+**Kang, Donghyun** and James Evans, R & R at *American Sociological Review* [[SocArXiv]](https://osf.io/preprints/socarxiv/2adyz)
 
 **Abstract**: The paradigm of scientific medicine is among the most influential epistemic shifts in the past century, wherein randomized clinical trials (RCTs) represent the impartial arbiter of legitimate medical knowledge, a view prevalent among quantitative social scientists. Nevertheless, not all RCTs agree, and systematic reviews are invoked to reconcile them. These assume the wisdom of crowds, which hinges on diverse perspectives and data, across the distribution of analyzed studies, but socio-epistemic bubbles across them may reduce realized diversity. We theorize how tacit knowledge, beliefs, and expectations accumulate within these ‘socio-epistemic bubbles,’ continuous regions of latent social density that may decrease diversity and increase certainty about healthcare studied by RCTs. To assess our theory, we analyze the Cochrane systematic review repository, covering 20,117 meta-analyses extracted from 1,962 reviews. We find that being closer within ‘social space’ inscribed by scientific collaboration markedly increases agreement regarding RCT effect direction and size. Our analysis suggests that this amplified certainty can drive premature convergence and path-dependency affecting medical practice and population health. Moreover, our findings imply hidden limitations associated with unmeasured social influence across the policy sciences through which conflicting claims perpetuate and highlight the necessity of accounting for them to improve collective certainty. 
 
@@ -12,7 +12,7 @@ title: Research
 ---
 
 ### Limited Diffusion of Scientific Knowledge Forecasts Collapse
-**Kang, Donghyun**, Robert Danziger, Jalees Rehman, and James Evans, R & R at *Nature Human Behaviour*, [arXiv](https://arxiv.org/ftp/arxiv/papers/2304/2304.07468.pdf)
+**Kang, Donghyun**, Robert Danziger, Jalees Rehman, and James Evans, R & R at *Nature Human Behaviour* [[arXiv]](https://arxiv.org/ftp/arxiv/papers/2304/2304.07468.pdf)
 
 **Abstract**: Market bubbles emerge when asset prices are driven unsustainably higher than asset values and shifts in belief burst them. We demonstrate the same phenomenon for biomedical knowledge when promising research receives inflated attention. We predict deflationary events by developing a diffusion index that captures whether research areas have been amplified within social and scientific bubbles or have diffused and become evaluated more broadly. We illustrate our diffusion approach contrasting the trajectories of cardiac stem cell research and cancer immunotherapy. We then trace the diffusion of unique 28,504 subfields in biomedicine comprising nearly 1.9M papers and more than 80M citations and demonstrate that limited diffusion of biomedical knowledge anticipates abrupt decreases in popularity. Our analysis emphasizes that restricted diffusion, implying a socio-epistemic bubble, leads to dramatic collapses in relevance and attention accorded to scientific knowledge.
 
@@ -30,7 +30,7 @@ title: Research
 ---
 
 ### The Inefficiency of Private Support for Public Health:Comparing Nonprofit Biomedical Research Funding with the NIH
-Shachter, Simon Y., **Donghyun Kang**, and James Evans, R & R at *Research Policy*, [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4483036)
+Shachter, Simon Y., **Donghyun Kang**, and James Evans, R & R at *Research Policy*, [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4483036)
 
 **Abstract** The U.S. has two systems of funding research at universities—a public one of Congressional appropriations and a private “submerged state” involving nonprofit funders subsidized by taxpayers. Here we examine the case of biomedical research and demonstrate that the “submerged state” can be costly and markedly less efficient at producing public goods. Using disability-adjusted life years (DALYs), we compare published outputs of biomedical research awards from nonprofit funders to grants from the National Institutes of Health (NIH). We apply a dataset of university funding and create novel linkages between grants and publications addressing diseases. Using this crosswalk, we demonstrate that nonprofit funders inefficiently benefit public health. Publications they fund are associated with fewer DALYs on average and are collectively less representative of the burden of disease than NIH-funded publications. This view implicates the inefficiency of the submerged state in biomedical research for public health, and is consistent with the critique that philanthropic activities represent publicly-sponsored expressions of private good.
 
