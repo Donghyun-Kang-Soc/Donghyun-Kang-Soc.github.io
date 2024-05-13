@@ -2,4 +2,4 @@
 layout: page
 title: CV
 ---
-You can find the latest copy of my CV [HERE](https://www.dropbox.com/scl/fi/ocxuba6k4o1owpxnvapmz/Donghyun_Kang_CV_Updated.pdf?rlkey=q7oce4vmstyxpewayb9vzow0b&st=4f19xbxh&raw=1).
+You can find the latest copy of my CV [HERE](https://ucfc518588b359196dbf3193669d.dl.dropboxusercontent.com/cd/0/inline2/CS0MMtXC-QyZHnn42qXci4YrnzFa-OAncNrJkl6x7jZvTXruK0U5TVKT_vIrbHUSz8OSXylpqGMEN6MkeP1NSZVgGJbq4Qhq1iEthccOxwQMcxlaZhsPdM8gmeTFoPLEXuVAVRBfUpowW_4RKm1lWBZkeLzUpcfghn3QKqcBi-s-HfuozXuTBRd7gH9P0yqXwmGviVvjRrAnUJID3S9G5M3eYCA1h7hFkc0SRSl8JH7XUsTRjNG-omHAElbrIWEPLwqMzegPVQIQNOIwy7R2rt7uKlgf2w7Pd6QjsGj12_MOmvVokpFjAu-I7gey6BXCxCPqLb3MdJw-IZTlKPCH40uXhdVEUFWz7xbsL1GBbBXOQA/file).
