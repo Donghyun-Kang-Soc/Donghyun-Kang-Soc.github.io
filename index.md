@@ -4,7 +4,7 @@ title: Donghyun Kang
 ---
 <img src="/assets/img/headshot_for_webpage.png" alt="Donghyun Kang" style="float: right; margin-left: 20px; width: 39%;">
 
-<p>Hello! I am Donghyun Kang, a Postdoctoral Scholar in the <a href="https://www.knowledgelab.org/">Knowledge Lab</a> at the University of Chicago. I completed my Ph.D. in <a href="https://sociology.uchicago.edu/">Sociology</a> at the same institution, under the guidance of James Evans. Before Chicago, I earned a B.A. in Business Administration and an M.A. in Sociology from Seoul National University.
+<p>Hello! I am Donghyun Kang, a Postdoctoral Scholar in the <a href="https://www.knowledgelab.org/">Knowledge Lab</a> at the University of Chicago. I completed my Ph.D. in <a href="https://sociology.uchicago.edu/">Sociology</a>, under the guidance of James Evans. Before Chicago, I earned a B.A. in Business Administration and an M.A. in Sociology from Seoul National University.
 
 <p>My research aims to advance our understanding of the emergence, diffusion, and evolution of ideas and practices in science and technology and across civic domains. I am particularly eager to bridge computational large-scale analysis with theoretical insights from the sociology of knowledge, science, and organization.</p>
 
