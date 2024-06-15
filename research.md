@@ -2,14 +2,6 @@
 layout: page
 title: Research
 ---
-### Socio-Epistemic Bubbles and Tacit Confidence in Randomized Clinical Trials
-**Kang, Donghyun** and James Evans, [Preprint](https://osf.io/preprints/socarxiv/2adyz)
-
-**Abstract**: The paradigm of scientific medicine is among the most influential epistemic shifts in the past century, wherein randomized clinical trials (RCTs) represent the impartial arbiter of legitimate medical knowledge, a view prevalent among quantitative social scientists. Nevertheless, not all RCTs agree, and systematic reviews are invoked to reconcile them. These assume the wisdom of crowds, which hinges on diverse perspectives and data, across the distribution of analyzed studies, but socio-epistemic bubbles across them may reduce realized diversity. We theorize how tacit knowledge, beliefs, and expectations accumulate within these ‘socio-epistemic bubbles,’ continuous regions of latent social density that may decrease diversity and increase certainty about healthcare studied by RCTs. To assess our theory, we analyze the Cochrane systematic review repository, covering 20,117 meta-analyses extracted from 1,962 reviews. We find that being closer within ‘social space’ inscribed by scientific collaboration markedly increases agreement regarding RCT effect direction and size. Our analysis suggests that this amplified certainty can drive premature convergence and path-dependency affecting medical practice and population health. Moreover, our findings imply hidden limitations associated with unmeasured social influence across the policy sciences through which conflicting claims perpetuate and highlight the necessity of accounting for them to improve collective certainty. 
-
-<img src="/assets/img/asr_fig.png" alt="Bubble Fig" style="width: 650px; height: auto; display: block; margin-left: auto; margin-right: auto;">
-
----
 
 ### Limited Diffusion of Scientific Knowledge Forecasts Collapse
 **Kang, Donghyun**, Robert Danziger, Jalees Rehman, and James Evans, R & R at *Nature Human Behaviour* [Preprint](https://arxiv.org/ftp/arxiv/papers/2304/2304.07468.pdf)
@@ -19,7 +11,14 @@ title: Research
 <img src="/assets/img/bubble_fig_2.png" alt="Bubble Fig" class="center-figure" style="display: block; margin-left: auto; margin-right: auto;">
 
 ---
+### Socio-Epistemic Bubbles and Tacit Confidence in Randomized Clinical Trials
+**Kang, Donghyun** and James Evans, [Preprint](https://osf.io/preprints/socarxiv/2adyz)
 
+**Abstract**: The paradigm of scientific medicine is among the most influential epistemic shifts in the past century, wherein randomized clinical trials (RCTs) represent the impartial arbiter of legitimate medical knowledge, a view prevalent among quantitative social scientists. Nevertheless, not all RCTs agree, and systematic reviews are invoked to reconcile them. These assume the wisdom of crowds, which hinges on diverse perspectives and data, across the distribution of analyzed studies, but socio-epistemic bubbles across them may reduce realized diversity. We theorize how tacit knowledge, beliefs, and expectations accumulate within these ‘socio-epistemic bubbles,’ continuous regions of latent social density that may decrease diversity and increase certainty about healthcare studied by RCTs. To assess our theory, we analyze the Cochrane systematic review repository, covering 20,117 meta-analyses extracted from 1,962 reviews. We find that being closer within ‘social space’ inscribed by scientific collaboration markedly increases agreement regarding RCT effect direction and size. Our analysis suggests that this amplified certainty can drive premature convergence and path-dependency affecting medical practice and population health. Moreover, our findings imply hidden limitations associated with unmeasured social influence across the policy sciences through which conflicting claims perpetuate and highlight the necessity of accounting for them to improve collective certainty. 
+
+<img src="/assets/img/asr_fig.png" alt="Bubble Fig" style="width: 650px; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+---
 ### Papers with code or without code? Impact of GitHub repository usability on the diffusion of machine learning research
 **Kang, Donghyun**, TaeYoung Kang, and Junkyu Jang. *Information Processing & Management* 60, no. 6 (2023): 103477. [https://doi.org/10.1016/j.ipm.2023.103477](https://www.sciencedirect.com/science/article/abs/pii/S0306457323002145)
 
