@@ -4,7 +4,7 @@ title: Research
 ---
 
 ### Limited Diffusion of Scientific Knowledge Forecasts Collapse
-**Kang, Donghyun**, Robert S. Danziger, Jalees Rehman, and James A. Evans, Forthcoming in *Nature Human Behaviour* [Preprint](https://arxiv.org/ftp/arxiv/papers/2304/2304.07468.pdf)
+**Kang, Donghyun**, Robert S. Danziger, Jalees Rehman, and James A. Evans, Forthcoming in *Nature Human Behaviour* (2024) [https://www.nature.com/articles/s41562-024-02041-0](https://www.nature.com/articles/s41562-024-02041-0)
 
 **Abstract**: Market bubbles emerge when asset prices are driven unsustainably higher than asset values and shifts in belief burst them. We demonstrate the same phenomenon for biomedical knowledge when promising research receives inflated attention. We predict deflationary events by developing a diffusion index that captures whether research areas have been amplified within social and scientific bubbles or have diffused and become evaluated more broadly. We illustrate our diffusion approach contrasting the trajectories of cardiac stem cell research and cancer immunotherapy. We then trace the diffusion of unique 28,504 subfields in biomedicine comprising nearly 1.9M papers and more than 80M citations and demonstrate that limited diffusion of biomedical knowledge anticipates abrupt decreases in popularity. Our analysis emphasizes that restricted diffusion, implying a socio-epistemic bubble, leads to dramatic collapses in relevance and attention accorded to scientific knowledge.
 
