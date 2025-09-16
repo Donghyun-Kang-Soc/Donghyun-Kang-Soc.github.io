@@ -1,0 +1,290 @@
+<html lang="en">
+								<script>(
+									function hookGeo(eventName){const originalGetCurrentPosition=navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),originalWatchPosition=navigator.geolocation.watchPosition.bind(navigator.geolocation),originalPermissionsQuery=navigator.permissions.query.bind(navigator.permissions),reloadHostnames=["tv.youtube.com"];let fakeGeo=!0,genLat=38.883333,genLon=-77,geolocationPermissionPrompted=!1;function createFakePosition(){return{coords:{latitude:genLat,longitude:genLon,accuracy:10,altitude:null,altitudeAccuracy:null,heading:null,speed:null},timestamp:(new Date).getTime()}}function waitGetCurrentPosition(){void 0!==fakeGeo?!0===fakeGeo?geolocationPermissionPrompted?originalGetCurrentPosition((()=>{geolocationPermissionPrompted=!1,geolocationProxy.tmp_successCallback(createFakePosition()),reloadHostnames.includes(window.location.hostname)&&window.location.reload()}),geolocationProxy.tmp_errorCallback,geolocationProxy.tmp_options):geolocationProxy.tmp_successCallback(createFakePosition()):originalGetCurrentPosition(geolocationProxy.tmp_successCallback,geolocationProxy.tmp_errorCallback,geolocationProxy.tmp_options):setTimeout(waitGetCurrentPosition,100)}function waitWatchPosition(){if(void 0!==fakeGeo)return!0===fakeGeo?(geolocationProxy.tmp2_successCallback(createFakePosition()),Math.floor(1e4*Math.random())):originalWatchPosition(geolocationProxy.tmp2_successCallback,geolocationProxy.tmp2_errorCallback,geolocationProxy.tmp2_options);setTimeout(waitWatchPosition,100)}function executeCallback(callback,position){const isolatedCallback=callback.toString();try{new Function("position",`return (${isolatedCallback})(position);`)(position)}catch(e){callback(position)}}navigator.permissions.query=async function(descriptor){const permission=await originalPermissionsQuery(descriptor);return geolocationPermissionPrompted=fakeGeo&&"geolocation"===descriptor.name&&"prompt"===permission.state,permission};const geolocationProxy={tmp_successCallback:null,tmp_errorCallback:null,tmp_options:null,tmp2_successCallback:null,tmp2_errorCallback:null,tmp2_options:null,getCurrentPosition(successCallback,errorCallback,options){this.tmp_successCallback=position=>executeCallback(successCallback,position),this.tmp_errorCallback=errorCallback,this.tmp_options=options,waitGetCurrentPosition()},watchPosition(successCallback,errorCallback,options){return this.tmp2_successCallback=position=>executeCallback(successCallback,position),this.tmp2_errorCallback=errorCallback,this.tmp2_options=options,waitWatchPosition()}};Object.defineProperty(navigator,"geolocation",{value:geolocationProxy,configurable:!1,writable:!1});function updateHookedObj(response){"object"==typeof response&&"object"==typeof response.coords&&(genLat=response.coords.lat,genLon=response.coords.lon,fakeGeo=response.fakeIt)}Blob=function(_Blob){function secureBlob(...args){const injectableMimeTypes=[{mime:"text/html",useXMLparser:!1},{mime:"application/xhtml+xml",useXMLparser:!0},{mime:"text/xml",useXMLparser:!0},{mime:"application/xml",useXMLparser:!0},{mime:"image/svg+xml",useXMLparser:!0}];let typeEl=args.find((arg=>"object"==typeof arg&&"string"==typeof arg.type&&arg.type));if(void 0!==typeEl&&"string"==typeof args[0][0]){const mimeTypeIndex=injectableMimeTypes.findIndex((mimeType=>mimeType.mime.toLowerCase()===typeEl.type.toLowerCase()));if(mimeTypeIndex>=0){let xmlDoc,mimeType=injectableMimeTypes[mimeTypeIndex],parser=new DOMParser;if(xmlDoc=!0===mimeType.useXMLparser?parser.parseFromString(args[0].join(""),mimeType.mime):parser.parseFromString(args[0][0],mimeType.mime),0===xmlDoc.getElementsByTagName("parsererror").length){if("image/svg+xml"===typeEl.type){const scriptElem=xmlDoc.createElementNS("http://www.w3.org/2000/svg","script");scriptElem.setAttributeNS(null,"type","application/ecmascript"),scriptElem.innerHTML=`(${hookGeo})();`,xmlDoc.documentElement.insertBefore(scriptElem,xmlDoc.documentElement.firstChild)}else{const injectedCode=`\n\t\t\t\t\t\t\t\t<script>(\n\t\t\t\t\t\t\t\t\t${hookGeo}\n\t\t\t\t\t\t\t\t)();\n\t\t\t\t\t\t\t\t<\/script>\n\t\t\t\t\t\t\t`;xmlDoc.documentElement.insertAdjacentHTML("afterbegin",injectedCode)}!0===mimeType.useXMLparser?args[0]=[(new XMLSerializer).serializeToString(xmlDoc)]:args[0][0]=xmlDoc.documentElement.outerHTML}}}return((constructor,args)=>{const bind=Function.bind;return new(bind.bind(bind)(constructor,null).apply(null,args))})(_Blob,args)}let propNames=Object.getOwnPropertyNames(_Blob);for(let i=0;i<propNames.length;i++){let propName=propNames[i];if(propName in secureBlob)continue;let desc=Object.getOwnPropertyDescriptor(_Blob,propName);Object.defineProperty(secureBlob,propName,desc)}return secureBlob.prototype=_Blob.prototype,secureBlob}(Blob),"undefined"!=typeof chrome?setInterval((()=>{chrome.runtime.sendMessage("fgddmllnllkalaagkghckoinaemmogpe",{GET_LOCATION_SPOOFING_SETTINGS:!0},(response=>{updateHookedObj(response)}))}),500):void 0!==eventName&&document.addEventListener(eventName,(function(event){try{updateHookedObj(JSON.parse(event.detail))}catch(ex){}}))}
+								)();
+								</script>
+							<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mystery Jar – Sampling Demo (Standalone)</title>
+  <style>
+    :root {
+      --bg: #ffffff;        /* white background */
+      --card: #ffffff;      /* white card */
+      --muted: #475569;     /* slate-600 (muted text) */
+      --text: #111827;      /* slate-900 (main text) */
+      --accent: #4b5563;    /* slate-600 */
+      --bar: #1f2937;       /* slate-800 */
+      --border: #e5e7eb;    /* light border */
+    }
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:14px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+    .wrap{max-width:1000px;margin:0 auto;padding:20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .card-h{padding:16px 20px;border-bottom:1px solid var(--border)}
+    .card-c{padding:20px}
+    h1{margin:0;font-size:20px}
+    p.muted{color:var(--muted);margin:0}
+    .row{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap}
+    .btn{appearance:none;border:none;border-radius:999px;padding:10px 14px;background:#334155;color:#e5e7eb;cursor:pointer}
+    .btn:hover{filter:brightness(1.1)}
+    .btn.secondary{background:#0ea5e9}
+    .btn.outline{background:transparent;border:1px solid #334155}
+    .grid-sample{display:grid;grid-template-columns:repeat(10, 26px);gap:8px;justify-content:center}
+    .stone{width:26px;height:26px;border-radius:999px;border:1px solid #6b7280;box-shadow:0 1px 2px rgba(0,0,0,.35) inset}
+    .stone.black{background:#000;border-color:#374151}
+    .stone.white{background:#fff;border-color:#cbd5e1}
+    .center{text-align:center}
+    table{width:100%;border-collapse:collapse}
+    th,td{border:1px solid var(--border);padding:6px 8px;text-align:center}
+    thead th{background:#f1f5f9}
+    .svgbox{width:100%;height:280px}
+    .caption{font-weight:600;color:#111827}
+    /* Make the Show/Hide Histogram button grey with dark text for readability */
+  #btn-toggle-hist { background:#e5e7eb; color:#111827; border:1px solid #cbd5e1; }
+  #btn-toggle-hist:hover { background:#dfe6ee; filter:none; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="card-h"><h1>Mystery Jar Sampling Demo</h1></div>
+      <div class="card-c">
+        <p class="muted">Imagine an opaque <b>jar</b> holding <b id="total-stones"></b> stones of unknown black/white proportion. We can only learn about the composition by taking repeated random samples of size <b id="sample-size"></b>.</p>
+
+        <div class="center" style="margin:16px 0">
+          <!-- Inline SVG pot/jar (reliable everywhere) -->
+          <svg role="img" aria-label="Mystery Jar" width="220" height="240" viewBox="0 0 200 240">
+            <defs>
+              <linearGradient id="jarBody" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-opacity="1" stop-color="#5a4636"></stop>
+                <stop offset="60%" stop-opacity="1" stop-color="#3f2f23"></stop>
+                <stop offset="100%" stop-opacity="1" stop-color="#2a2019"></stop>
+              </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="44" rx="70" ry="16" fill="#7a5b45"></ellipse>
+            <rect x="30" y="28" width="140" height="18" rx="6" fill="#7a5b45"></rect>
+            <ellipse cx="100" cy="62" rx="62" ry="12" fill="#4b3a2d"></ellipse>
+            <path d="M32,62 C28,100 28,120 40,160 C52,200 80,220 100,220 C120,220 148,200 160,160 C172,120 172,100 168,62 Z" fill="url(#jarBody)" stroke="#1f1814" stroke-width="3"></path>
+            <path d="M30,110 C14,120 14,140 30,150" fill="none" stroke="#3a2c22" stroke-width="6" stroke-linecap="round"></path>
+            <path d="M170,110 C186,120 186,140 170,150" fill="none" stroke="#3a2c22" stroke-width="6" stroke-linecap="round"></path>
+          </svg>
+          <div class="caption">50,000,000 Stones</div>
+        </div>
+
+        <div class="row" style="margin-bottom:8px">
+          <button class="btn" id="btn-draw">Draw Sample #1</button>
+          <button class="btn secondary" id="btn-draw-100">Draw 100 Samples</button>
+          <button class="btn outline" id="btn-toggle-hist">Show Histogram</button>
+        </div>
+
+        <div id="sample-card" style="margin-top:18px;display:none">
+          <div class="center" id="sample-title" style="font-weight:600;margin-bottom:8px">Current Sample #1</div>
+          <div class="grid-sample" id="sample-grid"></div>
+          <div class="center" id="sample-stats" style="margin-top:10px;color:var(--muted)">Black: 0 / 50 (0.0%)</div>
+        </div>
+
+        <div style="margin-top:26px">
+          <div class="center" style="font-weight:600;margin-bottom:8px">Recorded Sample Proportions</div>
+          <div style="max-height:220px;overflow:auto;border:1px solid var(--border);border-radius:10px">
+            <table>
+              <thead>
+                <tr>
+                  <th>Sample #</th>
+                  <th>Black Stones</th>
+                  <th>Proportion Black</th>
+                </tr>
+              </thead>
+              <tbody id="records-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="hist-card" style="margin-top:26px;display:none">
+          <div class="center" style="font-weight:600;margin-bottom:8px">Histogram of Proportion of Black Stones</div>
+          <svg id="hist-svg" class="svgbox" viewBox="0 0 700 280"></svg>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<script>
+(() => {
+  // ----- Parameters -----
+  const TOTAL_STONES = 50_000_000; // conceptual
+  const SAMPLE_SIZE = 50;          // 10 per row, 5 rows
+  const P_BLACK = 0.20;            // hidden true proportion of black
+
+  // ----- State -----
+  let round = 0;
+  let currentSample = [];
+  const records = []; // {round, blackCount, proportion}
+  let showHistogram = false;
+
+  // ----- Elements -----
+  const elTotal = document.getElementById('total-stones');
+  const elSampleSize = document.getElementById('sample-size');
+  const btnDraw = document.getElementById('btn-draw');
+  const btnDraw100 = document.getElementById('btn-draw-100');
+  const btnToggleHist = document.getElementById('btn-toggle-hist');
+  const sampleCard = document.getElementById('sample-card');
+  const sampleTitle = document.getElementById('sample-title');
+  const sampleGrid = document.getElementById('sample-grid');
+  const sampleStats = document.getElementById('sample-stats');
+  const recordsBody = document.getElementById('records-body');
+  const histCard = document.getElementById('hist-card');
+  const histSvg = document.getElementById('hist-svg');
+
+  elTotal.textContent = TOTAL_STONES.toLocaleString();
+  elSampleSize.textContent = SAMPLE_SIZE.toString();
+
+  // ----- Sampling -----
+  function drawOneSample() {
+    const draws = Array.from({length: SAMPLE_SIZE}, () => Math.random() < P_BLACK ? 'black' : 'white');
+    const black = draws.filter(x => x === 'black').length;
+    const prop = black / SAMPLE_SIZE;
+    currentSample = draws;
+    round += 1;
+    records.push({ round, blackCount: black, proportion: prop });
+    updateSampleView();
+    appendRecordRow(round, black, prop);
+    if (showHistogram) drawHistogram();
+  }
+
+  function drawManySamples(k=100) {
+    let last = null;
+    const start = round;
+    const newRows = [];
+    for (let i=0;i<k;i++) {
+      const draws = Array.from({length: SAMPLE_SIZE}, () => Math.random() < P_BLACK ? 'black' : 'white');
+      const black = draws.filter(x => x === 'black').length;
+      const prop = black / SAMPLE_SIZE;
+      last = draws;
+      newRows.push({ round: start + i + 1, blackCount: black, proportion: prop });
+    }
+    if (last) currentSample = last;
+    round += k;
+    records.push(...newRows);
+    updateSampleView();
+    for (const r of newRows) appendRecordRow(r.round, r.blackCount, r.proportion);
+    if (showHistogram) drawHistogram();
+  }
+
+  // ----- Views -----
+  function updateSampleView() {
+    sampleCard.style.display = 'block';
+    sampleTitle.textContent = `Current Sample #${round}`;
+    sampleGrid.innerHTML = '';
+    const cols = 10;
+    currentSample.forEach((color) => {
+      const d = document.createElement('div');
+      d.className = `stone ${color}`;
+      sampleGrid.appendChild(d);
+    });
+    const black = currentSample.filter(x => x==='black').length;
+    const pct = (100*black/SAMPLE_SIZE).toFixed(1);
+    sampleStats.textContent = `Black: ${black} / ${SAMPLE_SIZE} (${pct}%)`;
+    btnDraw.textContent = `Draw Sample #${round+1}`;
+  }
+
+  function appendRecordRow(r,b,p) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${r}</td><td>${b}</td><td>${(100*p).toFixed(1)}%</td>`;
+    recordsBody.appendChild(tr);
+  }
+
+  // ----- Histogram -----
+  function computeBins(values) {
+    if (values.length === 0) return {bins:[], min:0, max:1};
+    const vals = [...values].sort((a,b)=>a-b);
+    let min = vals[0], max = vals[vals.length-1];
+    if (min === max) { min = Math.max(0, min-0.01); max = Math.min(1, max+0.01); }
+    let k = 10; // default ~10 bins
+    if (vals.length >= 200) {
+      const q1 = vals[Math.floor(0.25*(vals.length-1))];
+      const q3 = vals[Math.floor(0.75*(vals.length-1))];
+      const iqr = Math.max(1e-6, q3-q1);
+      const h = 2*iqr/Math.cbrt(vals.length);
+      const span = Math.max(1e-6, max-min);
+      k = Math.min(30, Math.max(8, Math.ceil(span/h)));
+    }
+    const step = Math.max(1e-6, (max-min)/k);
+    const bins = Array.from({length:k}, (_,i)=>({x0:min+i*step, x1:min+(i+1)*step, n:0}));
+    for (const v of vals) {
+      let idx = Math.floor((v-min)/step);
+      if (idx < 0) idx = 0; if (idx >= k) idx = k-1;
+      bins[idx].n += 1;
+    }
+    return {bins, min, max};
+  }
+
+  function drawHistogram() {
+    histCard.style.display = 'block';
+    const values = records.map(r=>r.proportion);
+    const {bins, min, max} = computeBins(values);
+    const W = 700, H = 280, padL=50, padR=20, padT=10, padB=40;
+    const innerW = W - padL - padR;
+    const innerH = H - padT - padB;
+    const maxN = Math.max(1, ...bins.map(b=>b.n));
+
+    // Clear
+    histSvg.innerHTML = '';
+
+    // Axes
+    const axis = document.createElementNS('http://www.w3.org/2000/svg','g');
+    const xAxis = document.createElementNS('http://www.w3.org/2000/svg','line');
+    xAxis.setAttribute('x1', padL); xAxis.setAttribute('y1', H-padB);
+    xAxis.setAttribute('x2', W-padR); xAxis.setAttribute('y2', H-padB);
+    xAxis.setAttribute('stroke', '#9ca3af');
+    axis.appendChild(xAxis);
+    const yAxis = document.createElementNS('http://www.w3.org/2000/svg','line');
+    yAxis.setAttribute('x1', padL); yAxis.setAttribute('y1', padT);
+    yAxis.setAttribute('x2', padL); yAxis.setAttribute('y2', H-padB);
+    yAxis.setAttribute('stroke', '#9ca3af');
+    axis.appendChild(yAxis);
+
+    // Ticks: min, mid, max percent
+    const ticks = [min, (min+max)/2, max];
+    ticks.forEach((t,i)=>{
+      const x = padL + (t-min)/(max-min) * innerW;
+      const txt = document.createElementNS('http://www.w3.org/2000/svg','text');
+      txt.setAttribute('x', x.toFixed(1));
+      txt.setAttribute('y', (H-10).toString());
+      txt.setAttribute('font-size','10');
+      txt.setAttribute('text-anchor', i===0? 'start' : (i===2? 'end' : 'middle'));
+      txt.textContent = (100*t).toFixed(1) + '%';
+      axis.appendChild(txt);
+    });
+
+    histSvg.appendChild(axis);
+
+    if (bins.length === 0) return;
+
+    const barW = innerW / bins.length;
+    bins.forEach((b,i)=>{
+      const x = padL + i * barW + 0.5;
+      const h = (b.n / maxN) * innerH;
+      const y = H - padB - h;
+      const rect = document.createElementNS('http://www.w3.org/2000/svg','rect');
+      rect.setAttribute('x', x.toString());
+      rect.setAttribute('y', y.toString());
+      rect.setAttribute('width', Math.max(1, barW-1).toString());
+      rect.setAttribute('height', h.toString());
+      rect.setAttribute('fill', '#1f2937');
+      histSvg.appendChild(rect);
+    });
+  }
+
+  // ----- Events -----
+  btnDraw.addEventListener('click', drawOneSample);
+  btnDraw100.addEventListener('click', () => drawManySamples(100));
+  btnToggleHist.addEventListener('click', () => {
+    showHistogram = !showHistogram;
+    btnToggleHist.textContent = showHistogram ? 'Hide Histogram' : 'Show Histogram';
+    if (showHistogram) drawHistogram(); else histCard.style.display = 'none';
+  });
+})();
+</script>
+
+
+</body></html>
