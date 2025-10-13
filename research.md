@@ -19,7 +19,7 @@ title: Research
 <img src="/assets/img/rct_socio_bubble.png" alt="Bubble Fig" style="width: 650px; height: auto; display: block; margin-left: auto; margin-right: auto;">
 
 ---
-### Papers with code or without code? Impact of GitHub repository usability on the diffusion of machine learning research
+### Papers With Code or Without Code? Impact of GitHub Repository Usability on the Diffusion of Machine Learning Research
 **Kang, Donghyun**, TaeYoung Kang, and Junkyu Jang. *Information Processing & Management* 60, no. 6 (2023): 103477. [https://doi.org/10.1016/j.ipm.2023.103477](https://www.sciencedirect.com/science/article/abs/pii/S0306457323002145)
 
 **Abstract**: *Open Science* initiatives prompt machine learning (ML) researchers and experts to share source codes - "scientific artifacts" - alongside research papers via public repositories such as GitHub. Here we analyze the extent to which 1) the availability of GitHub repositories influences paper citation and 2) the popularity trend of ML frameworks (e.g., PyTorch and TensorFlow) affects article citation rates. To accomplish this, we connect ML research publications indexed by Papers with Code (PwC) to Microsoft Academic Graph (MAG) and collect repository-level metadata using the GitHub API. Applying nearest-neighbor matching and econometric considerations, we estimate that papers enjoy approximately 20% advantages in monthly citation rates after the creation of the first GitHub repositories, accounting for paper-level fixed effects and ages. We also find that the temporal popularity trends for frameworks used in the first associated repositories could influence the monthly citation rate for papers. The results highlight the importance of technological artifacts and infrastructure latent to the diffusion of research.
@@ -28,7 +28,7 @@ title: Research
 
 ---
 
-### The Inefficiency of Private Support for Public Health:Comparing Nonprofit Biomedical Research Funding with the NIH
+### Two Worlds of Biomedical Research Funding: Comparing the Publication Outcomes of NIH and Nonprofit Funding
 Shachter, Simon Y., **Donghyun Kang**, and James A. Evans, [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4483036)
 
 **Abstract** The U.S. has two systems of funding research at universities—a public one of Congressional appropriations and a private “submerged state” involving nonprofit funders subsidized by taxpayers. Here we examine the case of biomedical research and demonstrate that the “submerged state” can be costly and markedly less efficient at producing public goods. Using disability-adjusted life years (DALYs), we compare published outputs of biomedical research awards from nonprofit funders to grants from the National Institutes of Health (NIH). We apply a dataset of university funding and create novel linkages between grants and publications addressing diseases. Using this crosswalk, we demonstrate that nonprofit funders inefficiently benefit public health. Publications they fund are associated with fewer DALYs on average and are collectively less representative of the burden of disease than NIH-funded publications. This view implicates the inefficiency of the submerged state in biomedical research for public health, and is consistent with the critique that philanthropic activities represent publicly-sponsored expressions of private good.
