@@ -3,20 +3,21 @@ layout: page
 title: Research
 ---
 
+### Socio-Epistemic Bubbles and Tacit Confidence in Randomized Clinical Trials
+**Kang, Donghyun** and James A. Evans, _Social Studies of Science_ (2026) [https://journals.sagepub.com/doi/10.1177/03063127251410234](https://journals.sagepub.com/doi/10.1177/03063127251410234)
+
+**Abstract**: The paradigm of scientific medicine is among the most influential epistemic shifts in the past century, wherein randomized clinical trials (RCTs) represent the impartial arbiter of legitimate medical knowledge, a view prevalent among quantitative social scientists. Nevertheless, not all RCTs agree, and systematic reviews are invoked to reconcile them. These assume the wisdom of crowds, which hinges on diverse perspectives and data, across the distribution of analyzed studies, but socio-epistemic bubbles across them may reduce realized diversity. We theorize how tacit knowledge, beliefs, and expectations accumulate within these ‘socio-epistemic bubbles,’ continuous regions of latent social density that may decrease diversity and increase certainty about healthcare studied by RCTs. To assess our theory, we analyze the Cochrane systematic review repository, covering 20,117 meta-analyses extracted from 1,962 reviews. We find that being closer within ‘social space’ inscribed by scientific collaboration markedly increases agreement regarding RCT effect direction and size. Our analysis suggests that this amplified certainty can drive premature convergence and path-dependency affecting medical practice and population health. Moreover, our findings imply hidden limitations associated with unmeasured social influence across the policy sciences through which conflicting claims perpetuate and highlight the necessity of accounting for them to improve collective certainty. 
+
+<img src="/assets/img/rct_socio_bubble.png" alt="Bubble Fig" style="width: 650px; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+---
+
 ### Limited Diffusion of Scientific Knowledge Forecasts Collapse
 **Kang, Donghyun**, Robert S. Danziger, Jalees Rehman, and James A. Evans, *Nature Human Behaviour* (2024) [https://www.nature.com/articles/s41562-024-02041-0](https://www.nature.com/articles/s41562-024-02041-0)
 
 **Abstract**: Market bubbles emerge when asset prices are driven unsustainably higher than asset values, and shifts in belief burst them. We demonstrate an analogous phenomenon in the case of biomedical knowledge, when promising research receives inflated attention. We introduce a diffusion index that quantifies whether research areas have been amplified within social and scientific bubbles, or have diffused and become evaluated more broadly. We illustrate the utility of our diffusion approach in tracking the trajectories of cardiac stem cell research (a bubble that collapsed) and cancer immunotherapy (which showed sustained growth). We then trace the diffusion of 28,504 subfields in biomedicine comprising nearly 1.9 M papers and more than 80 M citations to demonstrate that limited diffusion of biomedical knowledge anticipates abrupt decreases in popularity. Our analysis emphasizes that restricted diffusion, implying a socio-epistemic bubble, leads to dramatic collapses in relevance and attention accorded to scientific knowledge.
 
 <img src="/assets/img/bubble_fig_2.png" alt="Bubble Fig" class="center-figure" style="display: block; margin-left: auto; margin-right: auto;">
-
----
-### Socio-Epistemic Bubbles and Tacit Confidence in Randomized Clinical Trials
-**Kang, Donghyun** and James A. Evans, *Forthcoming* in _Social Studies of Science_ [Preprint](https://osf.io/preprints/socarxiv/2adyz)
-
-**Abstract**: The paradigm of scientific medicine is among the most influential epistemic shifts in the past century, wherein randomized clinical trials (RCTs) represent the impartial arbiter of legitimate medical knowledge, a view prevalent among quantitative social scientists. Nevertheless, not all RCTs agree, and systematic reviews are invoked to reconcile them. These assume the wisdom of crowds, which hinges on diverse perspectives and data, across the distribution of analyzed studies, but socio-epistemic bubbles across them may reduce realized diversity. We theorize how tacit knowledge, beliefs, and expectations accumulate within these ‘socio-epistemic bubbles,’ continuous regions of latent social density that may decrease diversity and increase certainty about healthcare studied by RCTs. To assess our theory, we analyze the Cochrane systematic review repository, covering 20,117 meta-analyses extracted from 1,962 reviews. We find that being closer within ‘social space’ inscribed by scientific collaboration markedly increases agreement regarding RCT effect direction and size. Our analysis suggests that this amplified certainty can drive premature convergence and path-dependency affecting medical practice and population health. Moreover, our findings imply hidden limitations associated with unmeasured social influence across the policy sciences through which conflicting claims perpetuate and highlight the necessity of accounting for them to improve collective certainty. 
-
-<img src="/assets/img/rct_socio_bubble.png" alt="Bubble Fig" style="width: 650px; height: auto; display: block; margin-left: auto; margin-right: auto;">
 
 ---
 ### Papers With Code or Without Code? Impact of GitHub Repository Usability on the Diffusion of Machine Learning Research
